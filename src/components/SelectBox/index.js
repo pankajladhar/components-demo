@@ -1,16 +1,11 @@
 import React, { PureComponent } from 'react';
-//import PropTypes from 'prop-types';
-//import classnames from 'classnames';
-import cloneDeep from 'lodash/cloneDeep';
+import PropTypes from 'prop-types';
 import './SelectBox.css';
 
-const propTypes = {}
-const defaultProps = {}
-
-const isMobile = () => {
+/*const isMobile = () => {
     const win = typeof window === 'undefined' ? {} : window;
     return (win.matchMedia && win.matchMedia('(max-width: 767px)').matches);
-}
+}*/
 
 export default class SelectBox extends PureComponent {
     constructor(props) {
@@ -149,8 +144,15 @@ export default class SelectBox extends PureComponent {
     }
 }
 
-SelectBox.propTypes = propTypes;
-SelectBox.defaultProps = defaultProps;
+SelectBox.propTypes = {
+    id: PropTypes.string.isRequired,
+    onChange: PropTypes.func.isRequired,
+    defaultSelectedOptionTitle: PropTypes.string.isRequired
+};
+
+SelectBox.defaultProps =  {
+
+};
 
 
 
