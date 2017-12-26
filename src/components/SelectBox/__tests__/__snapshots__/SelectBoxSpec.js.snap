@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectBox renders correctly 1`] = `
+<div
+  className="SelectBox"
+>
+  <input
+    className="button"
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    type="button"
+    value="Select a Card Type"
+  />
+</div>
+`;
