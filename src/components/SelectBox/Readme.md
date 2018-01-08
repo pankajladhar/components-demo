@@ -7,14 +7,14 @@ Sample SelectBox
         options: [
             { 
                 value: "AMEX", 
-                title: "American Express",
+                title: "• • • • 4242",
                 iconInfo: {
                     "icon" : "amex-icon",
                     "alignment" : "right"
                 }
             },
             {   value: "DELTA",
-                title: "Visa Debit/Electron",
+                title: "• • • • 4242",
                 iconInfo: {
                     "icon" : "visa-icon",
                     "alignment" : "right"
